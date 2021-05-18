@@ -1,0 +1,258 @@
+html {
+  font-family: Helvetica, sans-serif;
+  margin: 0px;
+}
+
+
+body {
+  background-color: #FFFAF4;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background-color: #312F30;
+  color: #FFFAF4;
+  padding: 0.25vh 0.25vw 0.25vh 0.25vw;
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.75vw;
+  border: solid #FFFAF4 1px;
+  border-radius: 0.25vw;
+}
+
+button:hover {
+  background-color: #312F30 ;
+  color: #FFFAF4;
+}
+
+button:active {
+  background-color: #312F30 ;
+  color: #FFFAF4;
+}
+
+a:hover, a:active {
+  font-weight: bold;
+}
+
+.body-box {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.table-box {
+  width: 85vw;
+}
+.sidebar {
+  background: #2F4C32;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 15vw;
+  margin: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  font-size: 1em;
+  font-weight: bold;
+  color: #FFFAF4;
+  background-color: #312F30;
+  position: sticky;
+  border-collapse: collapse;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-right: 1vw;
+  padding-left: 1vw;
+}
+
+td {
+  font-size: 1vw;
+  border-collapse: collapse;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-right: 1vw;
+  padding-left: 1vw;
+}
+
+label {
+  color: #FFFAF4;
+  font-size: 0.75vw;
+}
+
+.sidebar-item {
+  padding-top: 0px;
+}
+
+.operations-item {
+  display: inherit;
+  margin-inline-start: 0px;
+  padding-block-start: 0px;
+  padding-inline-start: 0px;
+  padding-inline-end: 0px;
+  padding-block-end: 0.0px;
+  border: none;
+  flex-wrap: wrap;
+  margin-bottom: 2vh;
+}
+
+h1.sidebar-item {
+  color: #FFFAF4;
+  font-size: 2vw;
+  font-weight: bolder;
+  margin-block-start: 1vh;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+h2.sidebar-item {
+  color: #FFFAF4;
+  font-size: 1.25vw;
+  font-weight: bolder;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  display: inherit;
+}
+
+h3.sidebar-item {
+  color: #FFFAF4;
+  font-size: 1vw;
+  font-weight: bolder;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  display: inherit;
+}
+
+button.sidebar-item {
+  background-color: #312F30;
+  display: inherit;
+  align-self: inherit;
+  font-family: Helvetica, sans-serif;
+  color: #FFFAF4;
+  border: none;
+  padding: 0.25vh 0.25vw 0.25vh 0.25vw;
+  width: 5vw;
+}
+
+ul.sidebar-item {
+  list-style: none;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+}
+
+a.sidebar-item {
+  color: #FFFAF4;
+  font-size: 1.5vw;
+}
+
+input.sidebar-item {
+  color: inherit;
+}
+
+
+p.sidebar-item {
+  color: #FFFAF4;
+  font-size: 0.75vw;
+  text-align: left;
+}
+
+.sidebar-section {
+  padding-left: 2vw;
+  width: 13vw;
+}
+
+.operations-section {
+  background: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 13vw;
+  margin: none;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.text-align-center {
+  text-align: center;
+}
+.text-align-right {
+  text-align: right;
+}
+
+.icon {
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  padding-left: 2px;
+  border-spacing: none;
+  vertical-align: -1vh;
+}
+
+input[type=submit] {
+  background-color: #312F30;
+  color: #FFFAF4;
+  padding: 0.25vh 0.25vw 0.25vh 0.25vw;
+  font-size: 0.75vw;
+  border: 2px solid #312F30;
+  border-radius: 0.25vw;
+  box-sizing: inherit;
+  display: inherit;
+  align-items: inherit;
+  font: inherit;
+  text-transform: lowercase;
+}
+
+input[type=search], input[type=text] {
+  text-align: left;
+  background-color: #FFFAF4;
+  color: #312F30;
+  cursor: text;
+  margin: 0em;
+  font: inherit;
+  border-width: 2px;
+  border-style: inset;
+  border-color: #312F30;
+  border-image: initial;
+  box-sizing: border-box;
+  display: inherit;
+  max-width: 10vw;
+  min-width: 5vw;
+
+}
+
+.reset-button {
+  background-color: #312F30;
+  color: #FFFAF4;
+  padding: 0.25vh 0.25vw 0.25vh 0.25vw;
+  font-size: 0.75vw;
+  border: 2px solid #FFFAF4;
+  border-radius: 0.25vw;
+  box-sizing: border-box;
+  display: inherit;
+  align-items: inherit;
+  font: inherit;
+  text-transform: lowercase;
+}
+
+.hidden {
+  display: none;
+}
